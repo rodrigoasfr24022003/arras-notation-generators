@@ -9,7 +9,7 @@ for i in range(0,100):
     minLayers=1
     maxLayers=36
     def genAmmo():
-        return [s.choice(['bullet','drone','swarm_drone','bee','overdrive','revitalist','navyist','whirlybird','trap','block','boomerang','sikerblock','laserline','ionlaser','apbullet','shellingbullet','missile','empmissile','nuke','empnuke','railgunslug','heavynuke','heavyempnuke','donutbullet','kbbullet','oapp_heatseeker','oappblackhole','ceptioner','ceptionist','missile','bomb','stabilizer','pillbox','trapboxes','taurusportal','minion','sunchip','oxyprojectile','laserblast','shrapnelnuke']),fractions.Fraction(s.randint(1,60),6),fractions.Fraction(s.randint(1,60),6)]
+        return [s.choice(['bullet','drone','swarm_drone','bee','overdrive','revitalist','navyist','whirlybird','trap','block','boomerang','sikerblock','laserline','ionlaser','apbullet','shellingbullet','missile','empmissile','nuke','empnuke','railgunslug','heavynuke','heavyempnuke','donutbullet','kbbullet','ceptioner','ceptionist','missile','bomb','stabilizer','pillbox','trapboxes','minion','sunchip','oxyprojectile','laserblast','shrapnelnuke']),fractions.Fraction(s.randint(1,60),6),fractions.Fraction(s.randint(1,60),6)]
     def genEffect():
         slideNum=s.randint(5,77)
         if slideNum != 74:
